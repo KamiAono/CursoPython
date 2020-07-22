@@ -1,0 +1,21 @@
+print('Bem vindo a casa de cambio BR')
+print('-'*50)
+print('Dados do cliente')
+print()
+nome = input('Digite seu nome')
+cpf = input('digitee seu cpf')
+telefone = input('digite seu telefone')
+print( '-'*30)
+print('Dados do cambio')
+print()
+real = float(input('Quanto você deseja trocar? R$'))
+dolar = real/4.40
+iene = real*24.72
+euro = real/4.87
+print('Listamos alguns valores de moedas de acordo com a quantia que você deseja trocar')
+print(' Com R$ {} Você pode trocar por USS$ {:.2f}'.format(real, dolar))
+print(' Com R$ {} você pode trocar por iene {:.2f}'.format(real, iene))
+print(' Com R$ {} você pode trocar por £ {:.2f}'.format(real, euro))
+print()
+print(' A casa de câmbio agradece sua visita, tenha um ótimo dia!')
+print ('-'*70)

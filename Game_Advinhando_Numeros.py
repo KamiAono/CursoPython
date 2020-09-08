@@ -13,7 +13,7 @@ if jogador == pc:
 
     pygame.mixer.init()
     pygame.init()
-    pygame.mixer.music.load('acertou-mizeravijk_eifzvEs.mp3')
+    pygame.mixer.music.load('arraste uma musica em.mp3 aqui para acerto')
     pygame.mixer.music.play()
     pygame.event.wait()
 else:
@@ -21,6 +21,6 @@ else:
     import pygame
     pygame.mixer.init()
     pygame.init()
-    pygame.mixer.music.load('faustao-errou_qxgOLcE.mp3')
+    pygame.mixer.music.load('arraste uma musica em .mp3 aqui ')
     pygame.mixer.music.play()
     pygame.event.wait()
